@@ -9,7 +9,7 @@ vows.describe('serious-calculations').addBatch({
     },
     'result should be valid': function (topic) {
       assert.isNumber(topic);
-      assert.equal(topic, 9);
+      assert.equal(topic, 8);
     }
   }
 }).export(module);
